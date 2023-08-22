@@ -16,7 +16,7 @@ public class One extends Base {
 	@Test
 	public void testOne() {
 		
-		driverget("https://the-internet.herokuapp.com/");
+		driver.get("https://the-internet.herokuapp.com/");
 		
 		System.out.println(driver.getTitle());
 		
